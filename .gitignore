@@ -1,0 +1,28 @@
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# IDE-specific
+.idea/
+.vscode/
+
+.DS_Store
+
+Task_1_NER/model/model.safetensors
+optimizer.ptresults/checkpoint-21/model.safetensors
+Task_1_NER/model_weights/
+Task_1_NER/tokenizer/
+results/checkpoint-114/optimizer.pt
+results
+.vscode
+.idea
+data
+model
